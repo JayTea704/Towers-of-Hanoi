@@ -16,7 +16,7 @@ public class Main {
     // Solves towers of hanoi puzzle using recursion
     private static void solve(int n, String sourceTower, String targetTower, String tempTower) {
 
-        if (n == 1) {
+        if (n == 1) { //base condition if n = 1
 
             System.out.println(sourceTower + " => " + targetTower);
 
